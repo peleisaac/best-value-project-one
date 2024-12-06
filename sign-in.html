@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/signIn.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <!-- Sign In Form -->
+    <div class="container">
+      <form class="centered-form" id="signin-form" action="">
+        <div class="form-row">
+          <div>
+            <img src="assets/images/signin.jpg" alt="Sign In" id="form-image" />
+          </div>
+          <div class="form-fields">
+            <!-- Your form content goes here -->
+            <label for="username" id="username-label">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="input-field"
+              placeholder="Enter username"
+            />
+
+            <label for="password" id="password-label">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input-field"
+              placeholder="Enter password"
+            />
+
+            <button type="submit">Sign In</button>
+            <div class="form-sub-text">
+              Do not have an account?
+              <span id="sign-up-link"><a href="/sign-up.html">Sign Up</a></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <script src="./assets/js/signin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</html>
