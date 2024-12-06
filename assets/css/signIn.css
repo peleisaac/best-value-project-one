@@ -1,0 +1,159 @@
+/*
+  Author: Aboagye Isaac
+  Date: January 16, 2024
+  Description: Styles for the Sign In Page Layout
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Make the body take up the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center; /* Center the content horizontally */
+}
+
+.centered-form {
+  width: 1000px; /* Set a fixed width for the form */
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid #484bf5;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-image {
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#username-label,
+#password-label {
+  text-align: left;
+  padding-top: 20px;
+}
+
+#username,
+#password {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.input-field {
+  padding: 30px;
+  margin: 10px 10px 0px 0px;
+  border: 1px solid #eee;
+}
+
+button {
+  display: flex;
+  justify-self: start;
+  width: fit-content;
+  background-color: #484bf5;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-sub-text {
+  text-align: left;
+  padding-top: 10px;
+}
+
+#sign-in-link {
+  text-align: left;
+}
+
+button:hover {
+  background-color: #1f22ca;
+}
+
+@media (max-width: 768px) {
+  .centered-form {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  #username,
+  #password {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 912px) and (device-height: 1368px) and (orientation: portrait) {
+  .centered-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1137px) {
+  .centered-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-row {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-fields {
+    width: 100%;
+  }
+}
