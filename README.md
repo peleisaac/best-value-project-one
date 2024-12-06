@@ -117,7 +117,6 @@ This project was deployed using Github Pages and the steps taken to accomplish t
 ## Technologies Used
 - HTML5
 - CSS
-- JavaScript
 - Github for Version Control and Deployment
 
 
