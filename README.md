@@ -1,10 +1,30 @@
 ## Best Value
 
-The Best Value website is a personal finance tool that designed to help users or consumers make better borrowing decisions.
-We do this by simplifying the process of comparing and choosing a suitable vendor.
+## Overview
+The Best Value website is a user-centric personal finance tool that empowers consumers to make informed borrowing decisions. Designed with simplicity and functionality in mind, the platform streamlines the process of comparing lending options, ensuring users can identify and choose the most suitable vendor for their financial needs.
 
-The website brings together multiple lenders, all in one place. The information provided is objective and you can be sure to get the
-best out of this tool.
+### Key Features
+Centralized Vendor Information:
+Best Value aggregates multiple lenders in one place, offering users a comprehensive view of their options without the need for extensive individual research.
+
+### Objective Comparison:
+The platform presents unbiased and transparent information about each lender, helping users make confident choices without worrying about hidden agendas.
+
+### Intuitive Navigation:
+The design ensures seamless exploration, with user-friendly filters and sorting options that simplify the comparison of interest rates, terms, and benefits.
+
+### Trust and Transparency:
+Every aspect of the tool is crafted to ensure clarity, from vendor details to the overall borrowing process, building trust with the user.
+
+## Design Principles
+### Clarity and Simplicity:
+Minimalistic design with clear typography and well-organized layouts ensures that users can easily find and understand the information they need.
+
+### Accessibility:
+The platform is designed to be inclusive, providing features like responsive design, readable text sizes, and support for assistive technologies to ensure a great experience for all users.
+
+### Action-Oriented Flow:
+A focus on user journeys ensures the platform guides users through the decision-making process, from exploring options to selecting a lender.
 
 
 ![Screenshot of Homepage](https://github.com/peleisaac/best-value-project-two/blob/main/assets/images/homepage.png)
